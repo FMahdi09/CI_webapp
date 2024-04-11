@@ -1,0 +1,6 @@
+services:
+  webapp:
+    image: fmahdi09/ci_webapp:dev
+    container_name: webapp
+    ports:
+      - "1234:80"
